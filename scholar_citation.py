@@ -77,7 +77,7 @@ def main(label):
 
 
 if __name__ == "__main__":
-    label = "network_science" # sys.argv[1]
+    label = sys.argv[1] # "network_science"
     main(label)
 
 
